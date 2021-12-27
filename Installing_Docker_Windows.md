@@ -14,7 +14,7 @@
   * In the Administrator: Windows PowerShell window run (copy and past) "wsl --install -d Ubuntu" to install Windows Subsystem for Linux (wsl).
   * You will then need to restart your computer.
   * When it restarts Ubuntu will be installing. 
-  * Once it's done you will be asked to set up a Linux user.  I recommend the same username you use for Windows.
+  * Once it's done you will be asked to set up a Linux user.  Use a name and password you will remember. 
   * You will now be able to run Linux commands in the Ubuntu terminal window. 
   * Next enable the Virtual Machine Platform.  In the Administrator: Windows PowerShell run (copy and past)
     "dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart".
